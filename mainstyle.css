@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    background-size: cover;
+}
+h1 {
+    font-size: 45px;
+}
+h1,h2{
+    font-weight:bold;
+    color: #fff;
+    text-shadow: 2px 3px 4px black;
+}
+.container {
+    margin: 100px auto;
+    max-width: 680px;
+    width: 100%;
+}
+form {
+    margin-top:35px;
+}
+input,textarea,button {
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    border-style: ridge;
+    }
+button {
+    color: #fff;
+    background-color: #4ac970;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bolder;
+    font-style: italic;
+}
+button:hover {
+    background-color: #1b811b;
+}
+.succes-message {
+    background-color: #1b811b;
+    padding:15px;
+    color: #fff;
+    border-radius: 3px;
+    display: none;
+}
+.mensagem-erro, 
+.mensagemValor-erro {
+    font-size: small;
+    font-style: italic;
+    background-color: red;
+    border-radius: 3px;
+    color: #fff;
+    margin-top: -9px;
+    padding: 0px 10px;
+    display: none;
+}
+
+input.error{
+    color: #ff0000;
+    border-color: #ff0000;
+    outline-color: #ff0000;
+}
