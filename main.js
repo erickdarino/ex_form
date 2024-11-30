@@ -15,7 +15,7 @@ function validaNome(nomeCompleto) {
 
 /*criando uma função para que o salario desejado seja maior que o atual*/
 function validaSalario(salarioAtualValor,salarioAlmejadoValor){
-    return Number(salarioAlmejadoValor) > Number (salarioAtualValor);
+    return Number(salarioAlmejadoValor) > Number(salarioAtualValor);
 }
 
 /*Fazendo com que a pagina não recarregue após o submit*/
